@@ -16,6 +16,12 @@
     justify-content: space-around;
 }
 
+.animation:hover {
+    transform: scale(1.1);
+    transition: all 1.4s;
+}
+
+
 .product {
     padding-top: 60px;
     display: flex;
