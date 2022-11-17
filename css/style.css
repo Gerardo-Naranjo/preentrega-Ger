@@ -1,0 +1,204 @@
+.footer {
+  margin-top: 50px;
+  padding: 50px 50px 20px 50px;
+  background-color: lightgray;
+  color: black;
+}
+
+.mapa {
+  background-color: lightgray;
+  padding-left: 50px;
+}
+
+.titulo-bolsas {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: lightyellow;
+}
+
+.links {
+  background-color: lightgray;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.imagen-principal {
+  display: flex;
+  justify-content: space-around;
+}
+
+.animation:hover {
+  transform: scale(1.1);
+  transition: all 1.4s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Responsive */
+/* Telefono */
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: lightcoral;
+  }
+  .animation:hover {
+    transform: none;
+    transition: none;
+  }
+  body {
+    font-size: 14px;
+  }
+}
+/* Tableta */
+@media only screen and (min-width: 501px) and (max-width: 985px) {
+  body {
+    background-color: red;
+  }
+}
+/*Header*/
+.position {
+  background-color: lightblue;
+}
+
+/*Imagenes inicio*/
+.imagen-principal {
+  display: flex;
+  justify-content: space-around;
+}
+
+.animation:hover {
+  transform: scale(1.1);
+  transition: all 1.4s;
+}
+
+.product {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.ratio {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Texto de Inicio*/
+.descripcion-productos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.texto-producto1 {
+  background-color: aqua;
+  margin: 7px;
+}
+
+.texto-producto2 {
+  background-color: lightblue;
+  margin: 7px;
+}
+
+.texto-producto3 {
+  background-color: bisque;
+  margin: 7px;
+}
+
+/*Footer de todas las paginas */
+.footer {
+  margin-top: 50px;
+  padding: 50px 50px 20px 50px;
+  background-color: lightgray;
+  color: black;
+}
+
+.mapa {
+  background-color: lightgray;
+  padding-left: 50px;
+}
+
+.titulo-bolsas {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: lightyellow;
+}
+
+.links {
+  background-color: lightgray;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Bolsas galeria*/
+.bolsas-izquierda {
+  padding-left: 25px;
+  background-color: lightpink;
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-izquierda {
+  padding-top: 300px;
+  padding-left: 20px;
+}
+
+.text-izquierda2 {
+  padding-top: 120px;
+  padding-left: 20px;
+}
+
+.text-izquierda3 {
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.bolsas-izquierda1 {
+  background-color: bisque;
+  padding-left: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-derecha {
+  padding-top: 300px;
+  padding-left: 20px;
+}
+
+/*Seccion "Acerca de nosotros"*/
+.somos {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  background-color: lightgreen;
+}
+
+.fundadoras {
+  padding-top: 30px;
+  padding-left: 1000px;
+  padding-bottom: 20px;
+  background-color: aqua;
+}
+
+.fundadoras1 {
+  padding-bottom: 50px;
+  background-color: aqua;
+}
+
+.redes {
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.sociales {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */
